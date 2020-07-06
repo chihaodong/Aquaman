@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "Aquaman", targets: ["Aquaman"])
     ],
     dependencies: [
-        .package(url: "https://github.com/chihaodong/Aquaman", from: "0.1.1")
+        .package(url: "https://github.com/chihaodong/Aquaman")
     ],
     targets: [
         .target(name: "Aquaman", dependencies: ["Aquaman"], path: "Aquaman/Aquaman")
