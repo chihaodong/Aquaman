@@ -10,7 +10,7 @@ DEPENDENCIES:
   - Trident
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
+  trunk:
     - MJRefresh
     - SnapKit
     - Trident
@@ -22,4 +22,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 8af69718bfc3c77a268b07005184e9f4bb8a5a08
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
