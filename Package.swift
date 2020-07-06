@@ -7,6 +7,7 @@ let package = Package(
         .library(name: "Aquaman", targets: ["Aquaman"])
     ],
     targets: [
-        .target(name: "Aquaman", dependencies: ["Aquaman"], path: "Aquaman/Aquaman")
-    ]
+        .target(name: "Aquaman", path: "Aquaman/Aquaman")
+    ],
+    swiftLanguageVersions: [.v5]
 )
