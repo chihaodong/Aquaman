@@ -8,6 +8,5 @@ let package = Package(
     ],
     targets: [
         .target(name: "Aquaman", dependencies: ["Aquaman"], path: "Aquaman/Aquaman")
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
